@@ -1,92 +1,24 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+background-color: darkgrey;
 }
 
-/* Estilo do texto */
+#banner {
+    width:100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
 p {
-    font-size: 18px;
-    color: #333;
-}
-
-/* Estilo da imagem */
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.conteudo {
     text-align: center;
-    max-width: 600px; /* Largura máxima do conteúdo */
-    width: 80%; /* Define a largura em porcentagem para ser responsiva */
-    margin: 0 auto; /* Centraliza o conteúdo na horizontal */
 }
 
-.conteudo p {
-    font-size: 16px; /* Tamanho do texto */
-    line-height: 1.5; /* Altura da linha para melhor legibilidade */
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: red; /* Cor de fundo vermelha */
-}
-
-.conteudo {
-    text-align: center;
-    max-width: 600px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.conteudo p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* Cor de texto branca para melhor contraste no fundo vermelho */
-.conteudo p, .conteudo img {
-    color: red;
-}
-
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: red; /* Cor de fundo vermelha */
-    color: white; /* Cor do texto branca para contraste */
-    font-family: Arial, sans-serif; /* Fonte básica */
-}
-
-.conteudo {
-    text-align: center;
-    max-width: 600px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.conteudo p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: black; /* Cor do texto preta */
-    text-transform: uppercase; /* Converter para caixa alta */
+#missao {
+    font-size: 20px
 }
